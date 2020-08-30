@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Home">Home</string>
+    <string name="Search">Search</string>
+    <string name="Add">Add</string>
+    <string name="Notif">Notif</string>
+    <string name="Profile">Profile</string>
+</resources>

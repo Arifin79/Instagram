@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "300627778166",
+    "firebase_url": "https://sosial-media-472f7.firebaseio.com",
+    "project_id": "sosial-media-472f7",
+    "storage_bucket": "sosial-media-472f7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300627778166:android:559d236ceb525da0fa5d57",
+        "android_client_info": {
+          "package_name": "com.arifin.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300627778166-ekbnhk510dql1qc0l5vd9pkdbn83cgrf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.arifin.instagram",
+            "certificate_hash": "1eea06c1f44ccaa90c29defd21467abe4574e957"
+          }
+        },
+        {
+          "client_id": "300627778166-lao5726ug7594qivguveen8pmlmlj6dt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUrAIsd-cn2R9Bc-_7sxCggPfB9J0hRvw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300627778166-lao5726ug7594qivguveen8pmlmlj6dt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
