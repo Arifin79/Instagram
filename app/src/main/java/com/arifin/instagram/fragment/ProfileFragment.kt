@@ -114,7 +114,7 @@ class ProfileFragment : Fragment() {
         getFollowers()
         getFollowings()
         userInfo()
-//        myPost()
+        myPost()
 
         return viewProfile
     }
