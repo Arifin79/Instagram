@@ -119,36 +119,36 @@ class ProfileFragment : Fragment() {
         return viewProfile
     }
 
-//    private fun myPost() {
-//        val postRef = FirebaseDatabase.getInstance().reference.child("Posts")
-//        postRef.addValueEventListener(object :ValueEventListener{
-//
-//            override fun onDataChange(p0: DataSnapshot) {
-//
-//                if (p0.exists()) {
-//
-//
-//                    (postListGrid as ArrayList<Post>).clear()
-//
-//                    for (snapshot in p0.children) {
-//                        val post = snapshot.getValue(Post::class.java)
-//                        if (post?.getPublisher().equals(profileId))
-//                        {
-//                            (postListGrid as ArrayList<Post>).add(post!!)
-//                        }
-//
-//
-//                        Collections.reverse(postListGrid)
-//                        myImagesAdapter!!.notifyDataSetChanged()
-//                    }
-//                }
-//            }
-//
-//            override fun onCancelled(p0: DatabaseError) {
-//
-//            }
-//        })
-//    }
+    private fun myPost() {
+        val postRef = FirebaseDatabase.getInstance().reference.child("Posts")
+        postRef.addValueEventListener(object :ValueEventListener{
+
+            override fun onDataChange(p0: DataSnapshot) {
+
+                if (p0.exists()) {
+
+
+                    (postListGrid as ArrayList<Post>).clear()
+
+                    for (snapshot in p0.children) {
+                        val post = snapshot.getValue(Post::class.java)
+                        if (post?.getPublisher().equals(profileId))
+                        {
+                            (postListGrid as ArrayList<Post>).add(post!!)
+                        }
+
+
+                        Collections.reverse(postListGrid)
+                        myImagesAdapter!!.notifyDataSetChanged()
+                    }
+                }
+            }
+
+            override fun onCancelled(p0: DatabaseError) {
+
+            }
+        })
+    }
 
     private fun cekFollowAndFollowingButtonStatus() {
         val followingRef = firebaseUser?.uid.let { it1 ->
